@@ -1,0 +1,10 @@
+runtime: nodejs16
+service: backend
+# Set environment variables
+env_variables:
+  KEY: "VALUE"
+
+# Specify handlers to process HTTP requests
+handlers:
+- url: /.*
+  script: auto
