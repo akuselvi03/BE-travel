@@ -102,7 +102,7 @@ run().catch(console.dir)
 
 
 app.get('/', (req, res) => {
-    res.send('Bismillah berhasil')
+    res.send('coba lagi muheheh')
 })
 
 
